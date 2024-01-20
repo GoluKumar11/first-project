@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  border: border-box;
+  font-family: arial;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.about_section {
+  height: 666px;
+  width: 100%;
+  font-size: 14px;
+  color: #797979;
+  display: flex;
+  /* background-color: #c5b1b1; */
+  padding: 10% 10%;
+  gap: 22%;
+}
+.image_11 {
+  background-image: url("image/golu_png3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 470px;
+  height: 489px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.image_11:hover {
+  transform: scale(1.1);
+}
+.about-text {
+  width: 400px;
+  height: 440px;
+  font-size: 14px;
+  color: #797979;
+}
+.about-text p {
+  width: 400px;
+  height: 27px;
+  font-size: 14px;
+  color: #797979;
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-text h2 {
+  width: 400px;
+  font-size: 42px;
+  color: #212529;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.about-text li {
+  font-size: 18px;
+}
+
+/*       SECTION  __  ARIEA */
+
+.section-arie {
+  height: 730px;
+  width: 1264px;
+  font-size: 14px;
+  color: #797979;
+  padding: 0px 80px 0px;
+  margin-top: 40px;
+}
+.section-text {
+  height: 220px;
+  width: 1140px;
+  color: #797979;
+  padding: 0px 10%;
+  margin-top: 5%;
+}
+.section-text p {
+  width: 690px;
+  height: 27px;
+  color: #797979;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 15px;
+}
+.section-text h2 {
+  width: 690px;
+  height: 52px;
+  color: #05364d;
+  font-size: 42px;
+  font-weight: 600;
+  padding: 0px 10px;
+}
+.section-card {
+  display: inline-block;
+  padding: 0px 3%;
+}
+.service_item {
+  height: 420px;
+  width: 330px;
+  padding: 60px 30px;
+  text-align: center;
+  background: #f8faff;
+  color: #797979;
+  text-align: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 34%;
+}
+.service_image {
+  margin: 0px 0px 45px;
+}
+.section-card :hover {
+  border: border-box;
+  background-color: blue;
+}
+.service_item h4 {
+  height: 27px;
+  width: 270px;
+  font-size: 20px;
+  color: #05364d;
+  margin: 0px 0px 20px;
+}
+.service_item p {
+  height: 81px;
+  width: 270px;
+  font-size: 14px;
+  color: #797979;
+  word-spacing: 5px;
+}
+.service_item a {
+  height: 27px;
+  width: 79px;
+  font-size: 13px;
+  color: #05364d;
+  word-spacing: 5px;
+  margin-left: 10px;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.buttun-cont {
+  height: 70px;
+  width: 210px;
+  margin-top: 30px;
+}
+button {
+  height: 65px;
+  width: 180px;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: rgb(77, 79, 222);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: transform 0.2s;
+}
+button:hover {
+  transform: scale(1.1);
+}
